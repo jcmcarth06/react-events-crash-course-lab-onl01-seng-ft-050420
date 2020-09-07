@@ -46,7 +46,9 @@ export default class ChromeBoisDomain extends Component {
         onMouseMove={this.handleMouseMove}
         width='900'
         height='600'
-        tabIndex="0">
+        tabIndex="0"
+        onClick={this.handleClick}
+        onKeyDown={this.handleKeyDown}>
       </canvas>
     )
   }
