@@ -34,7 +34,7 @@ export default class ChromeBoisDomain extends Component {
    handleKeyDown(event) {
      if (event.key === 'a') {
       return resize('+')
-    } 
+    }
     else if (event.key === 's') {
       return resize('-')
     };
